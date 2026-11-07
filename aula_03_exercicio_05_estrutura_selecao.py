@@ -1,0 +1,21 @@
+ # Exercicio 5(4) : Análise de Dados com Estrutura de Seleção Composta
+
+print('Escolhe o que deseja comprar: ')
+print('1 - Maça')
+print('2 - Laranja')
+print('3 - Banana')
+produto = int(input('Qual sua escola? '))
+qtd = int(input('Quantas quantidades?'))
+if (produto == 2):
+  pagar = qtd * 2.3
+  print(f'Você comprou {qtd} maças, Total à pagar: {pagar}')
+else:
+  if (produto == 2):
+    pagar = qtd * 3.6
+    print(f'Você comprou {qtd} laranjas. Total à pagar: {pagar}')
+  else:
+    if (produto == 3):
+      pagar = qtd * 1.85
+      print(f'Você comprou {qtd} bananas, Total à pagar: {pagar}') 
+    else:
+      print('Produto inexistente!')
